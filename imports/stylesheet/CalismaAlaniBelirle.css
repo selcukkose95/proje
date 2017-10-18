@@ -1,0 +1,32 @@
+div#calisma_alani_belirle_ana_parca{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+div.Alan{
+    display: flex;
+    margin-top: 5px;
+}
+
+button#kaydet{
+    flex: 1;
+}
+
+#il_parca{
+
+    flex: 3;
+}
+
+label.Alan{
+   
+   flex: 1;
+}
+
+select.veriler{
+    min-width: 100px;
+    flex: 3;
+}

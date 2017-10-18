@@ -1,0 +1,9 @@
+button#tamam{
+    width: 250px;
+}
+
+select#turler{
+    width: 250px;
+    height: 25px;
+    margin: 5px;
+}

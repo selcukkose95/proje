@@ -1,0 +1,42 @@
+#sirket_bilgileri_giris_ana_parca{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+div#form{
+
+    margin-top: 7px;
+}
+
+div.alanlar{
+    display: flex;
+    margin-bottom: 5px;
+}
+
+label.alan{
+    flex: 2;
+}
+
+input.alan{
+    flex: 3;
+}
+
+textarea.alan{
+    flex: 3;
+}
+
+button.alan{
+    flex: 3;
+}
+
+button#kaydet{
+    width: 100%;    
+}
+
+select.alan{
+    flex: 3;
+    height: 25px;
+}

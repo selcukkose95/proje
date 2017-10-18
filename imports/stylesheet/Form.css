@@ -1,0 +1,38 @@
+
+div.form{
+    
+    margin-bottom: 10px;
+}
+
+div.alanlar{
+    display: flex;
+    margin-bottom: 8px;
+    width: 100%;
+}
+/*Sol Tarafında boşluk brakmak istediğimiz tdler için*/
+td.sol_bosluk{
+    padding-left: 10px;
+}
+
+.yatay_sıralanmis{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1 solid red;
+}
+
+.yatay_elemanlar{
+    margin-right: 5px;
+    min-width: 200px;
+}
+
+.etiket{
+    flex: 1;
+    margin-left: 5px;
+}
+
+.alan{
+    flex: 5;
+}

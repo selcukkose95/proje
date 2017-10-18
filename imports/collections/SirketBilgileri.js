@@ -1,0 +1,1 @@
+export default SirketBilgileri = new Mongo.Collection('sirket_bilgileri'); 

@@ -1,0 +1,233 @@
+/*Div içerisinde bulunan elemanlar div'in ortasında konumlandırılır.*/
+.ana_parca_ortala{
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        overflow: auto;
+}
+/*Div içerisinde bulunan elemanlar div'in ortasında konumlandırılır ve dikey olarak sırlanır.*/
+.ana_parca_ortala_dikey{
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        overflow: auto;
+}
+/*Div içerisinde bulunan elemanlar dikey olarak sıralanır.*****************************************************************/
+.ana_parca_dikey{
+
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: scroll;
+}
+
+.ana_parca_dikey_bolum{
+    display: flex;
+    flex-direction: column;
+    min-height: 500px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #006666;
+    background-color: white;
+    transition: 0.5s;
+    transition-delay: 2s;
+}
+
+.ana_parca_dikey_bolum:hover{
+
+    border-bottom: 3px solid #006666;
+    min-height: 550px;
+}
+
+.ana_parca_dikey_baslik{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    background-color: #006666;
+    Color: white;
+}
+
+.ana_parca_dikey_govde{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 465px;
+}
+
+.ana_parca_dikey_govde_ortala{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 465px;
+}
+
+.ana_parca_dikey_grafik{
+
+    flex: 3;
+    min-width: 300px;
+    margin-right: 5px;
+}
+
+.ana_parca_dikey_veri{
+
+    flex: 1;   
+    display: flex;
+    min-width: 300px;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+}
+/************************************************************************************************************************/
+.dikey_sırala{
+
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+
+    display: flex;
+    justify-content: center;
+    height: 25px;
+    background-color: #006666;
+    color: white;
+    border: 0px;
+    transition: 0.5s;
+}
+
+
+
+button:hover {
+    background-color: white;
+    color: #006666;
+    border: 1px solid #006666;
+}
+
+button:focus {
+    background-color: white;
+    color: #006666;
+    border: 1px solid #006666;
+    -webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+button.bolum{
+    min-width: 250px;
+    margin-bottom: 10px;
+}
+
+option{
+
+    display: flex;
+    justify-content: center;
+    height: 25px;
+    background-color: #006666;
+    color: white;
+    border: 0px;
+    transition: 0.5s;
+}
+
+option:hover{
+
+    background-color: white;
+    color: #006666;
+    border: 1px solid #006666;
+    -webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+.tam_genis{
+    width: 100%;    
+}
+
+.yari_genis{
+    width: 50%;
+}
+
+.alan{
+    width: 200px;
+}
+
+.alt_alan{
+    display: flex;
+    flex: 3;
+    justify-content: space-between;
+    min-width: 205px;
+}
+
+input {
+    border: 1px solid #006666;
+    height: 21px;
+    transition: 0.5s;
+}
+
+input:focus{
+    background-color: #006666;
+    color:white;
+}
+
+textarea {
+    border: 1px solid #006666;
+}
+
+select {
+    border: 1px solid #006666;
+    height: 30px;
+    max-height: 20px;
+    transition: 0.5s;
+}
+
+select:focus{
+
+    background-color: #006666;
+    color:white;
+}
+
+/*Verilerin Listelemek İçin kullanılan tablo türleri*/
+table.veriler {
+    background-color: white;
+    border-collapse: collapse;
+    border: 1px solid #006666;
+    margin-top: 5px;
+    width: 100%;
+    max-height: 20%;
+    overflow: scroll;
+}
+
+th.veriler{
+    background-color: #006666;
+    color: white;
+}
+
+td.veriler, th.veriler {
+    border-left: 1px solid #006666;
+    text-align: left;
+    padding: 8px;
+}
+
+tr.veriler:first-child{
+    background-color: white;
+    color: black;
+}
+
+tr.veriler:hover{
+    background-color: #006666;
+    color: white;
+}
+
+tr.veriler:focus{
+    background-color: #4DA5D2;
+    color: white;
+}
+
+

@@ -1,0 +1,39 @@
+/*
+*
+  Urunler Ana Menu
+*
+*/
+#urunler_ana_parca{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    overflow: auto;
+}
+
+button.urunler_bolum{
+    min-width: 250px;
+    margin-bottom: 10px;
+}
+/*
+*
+    Urun Ekle
+*
+*/
+
+/*
+*
+        Urunleri Listeleyin
+*
+*/
+
+#tum_urnleri_listeleyin_ana_parca{
+    display: flex;
+    height: 90%;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+}
+
+
+

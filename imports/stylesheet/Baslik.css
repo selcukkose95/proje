@@ -1,0 +1,10 @@
+#baslik{
+    display: flex;
+    align-items: flex-end;
+    height: 30px;
+}
+
+#logo{
+    margin-left: 5px;
+    margin-right: 5px;
+}
